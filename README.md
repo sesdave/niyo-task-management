@@ -80,7 +80,7 @@ $ npm run test:cov
 ## Documentation
 API's are all documented using swagger and can be access 
 
-http://localhost:3000
+http://localhost:3000/api
 
 ## Support
 
