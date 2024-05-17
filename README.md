@@ -26,8 +26,27 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+## Task Management API
 
+This is a simple task management API built with NestJS. The API provides user authentication using JWT tokens and supports CRUD operations for managing tasks. It also includes real-time data streaming using WebSockets.
+
+### Features
+
+- User Authentication using JWT
+- CRUD Operations for tasks
+- Input Validation
+- Data Persistence with a database (in our case, we are using sqlite)
+- Real-time updates with WebSockets
+- API Documentation with Swagger
+
+
+## Installation
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/sesdave/niyo-task-management.git
+   cd niyo-task-management-api
+   ```
 ```bash
 $ npm install
 ```
@@ -57,6 +76,11 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+
+## Documentation
+API's are all documented using swagger and can be access 
+
+http://localhost:3000
 
 ## Support
 
